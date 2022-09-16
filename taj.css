@@ -1,0 +1,32 @@
+#menu{
+    background-color: antiquewhite;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.links{
+    display: inline;
+    font-size: 20px;
+    padding : 20px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+/* pseudo class syntax:selector:psuedo class{property:value:} */
+a:hover{
+    font-size:40px
+}
+/* sticky property */
+#taj{
+    position: sticky;
+    top: 60px;
+}
+body{
+    text-align: center;
+   background-image: linear-gradient(to right,rgb(68, 128, 64),rgb(39, 84, 89));
+}
+h1{
+
+}
